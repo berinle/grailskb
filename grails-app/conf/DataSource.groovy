@@ -13,8 +13,11 @@ hibernate {
 environments {
 	development {
 		dataSource {
-			dbCreate = "create-drop" // one of 'create', 'create-drop','update'
-			url = "jdbc:hsqldb:mem:devDB"
+			dbCreate = "update" // one of 'create', 'create-drop','update'
+			url = "jdbc:mysql://localhost/kbase"
+			driverClassName = "com.mysql.jdbc.Driver"
+			username = "root"
+			password = "pw4cbp"
 		}
 	}
 	test {
