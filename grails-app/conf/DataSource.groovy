@@ -14,7 +14,7 @@ environments {
 	development {
 		dataSource {
 			dbCreate = "update" // one of 'create', 'create-drop','update'
-			url = "jdbc:mysql://localhost/kbase"
+			url = "jdbc:mysql://localhost/caching"
 			driverClassName = "com.mysql.jdbc.Driver"
 			username = "root"
 			password = "pw4cbp"
